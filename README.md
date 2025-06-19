@@ -73,6 +73,7 @@ python3 XposedOrNot.py
 
 ##### Ingresas el email que quieras consultar
 email_de_prueba_para_osint@hotmail.com
+
 email_de_prueba_para_osint@gmail.com
 
 > **El proyecto está abierto a colaboradores.**
