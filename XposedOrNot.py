@@ -72,7 +72,7 @@ def mostrar_resultados(data):
             print(f"  {Fore.CYAN}👤 Registros afectados: {breach.get('xposed_records', '?')}")
             print(f"  {Fore.CYAN}🔓 Datos expuestos: {breach.get('xposed_data', '?')}")
             print(f"  {Fore.CYAN}🔗 Referencia: {breach.get('references', '?')}")
-            print(f"  {Fore.CYAN}ℹ️ Detalles: {breach.get('details', '?')[:150]}...")
+            print(f"  {Fore.CYAN}ℹ️ Detalles: {breach.get('details', '?')[:1000]}...")
 
 if __name__ == "__main__":
     mostrar_banner()
